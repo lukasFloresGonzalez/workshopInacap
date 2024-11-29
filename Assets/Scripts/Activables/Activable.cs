@@ -22,6 +22,7 @@ public class Activable : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && playerDetector.InZone)
         {
+            Debug.Log("hola");
             if (CompareTag("Object"))
             {
                 Destroy(gameObject);
